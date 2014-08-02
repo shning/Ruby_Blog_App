@@ -5,11 +5,11 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  Blog::Application.routes.draw do
+#  Blog::Application.routes.draw do
     resources :articles
     resources :animal
     root 'welcome#index'
-  end
+#  end
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
